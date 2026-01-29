@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thief Detection Dashboard</title>
+</head>
+<body>
+    <h1>🚨 Automatic Thief Detection System</h1>
+
+    {% if image %}
+        <h3>Latest Captured Image:</h3>
+        <img src="{{ image }}" width="500">
+    {% else %}
+        <p>No motion detected yet.</p>
+    {% endif %}
+</body>
+</html>

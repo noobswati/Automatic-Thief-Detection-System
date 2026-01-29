@@ -1,0 +1,18 @@
+Automatic-Thief-Detection-System/
+├── esp32_code/
+│   ├── platformio.ini
+│   └── src/
+│       └── main.cpp
+│
+├── raspberry_pi/
+│   ├── camera_capture.py
+│   ├── mqtt_subscriber.py
+│   └── requirements.txt
+│
+├── dashboard/
+│   ├── app.py
+│   └── templates/
+│       └── index.html
+│
+├── README.md
+└── system_architecture.md
